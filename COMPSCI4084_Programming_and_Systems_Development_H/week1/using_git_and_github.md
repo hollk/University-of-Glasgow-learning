@@ -2,7 +2,7 @@
 Using Git and gitHub
 </h1>
 
-[TOC]
+
 ## 1. Setting up and Creating a New Repository
 
 ### 1.1 Initialise a new repository locally

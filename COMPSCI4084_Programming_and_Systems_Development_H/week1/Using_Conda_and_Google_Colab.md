@@ -2,7 +2,7 @@
 Using Conda and Google Colab
 </h1>
 
-[TOC]
+
 
 # 1. Setting Up Conda and Creating a New Environment
 

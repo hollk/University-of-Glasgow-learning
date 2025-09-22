@@ -1,7 +1,9 @@
 <h1 align="center">
 Conda Practical Exercises
 </h1>
-[TOC]
+
+
+
 ## Exercise 1: Setting Up Conda
 
 Task: Install Miniconda or Anaconda on your system.

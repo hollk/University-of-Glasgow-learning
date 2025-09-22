@@ -1,7 +1,8 @@
 <h1 align="center">
 Google Colab - Step-by-step practical exercises File
 </h1>
-[TOC]
+
+
 # 1. Google Colab
 
 ## Exercise 1: Getting Started with Google Colab
