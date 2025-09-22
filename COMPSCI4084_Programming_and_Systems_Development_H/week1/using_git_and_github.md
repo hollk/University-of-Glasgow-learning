@@ -143,6 +143,7 @@ Use the git add command to tell Git which file i want to include in the next com
 Use the git commit command to save the staged files into the Git history
 
 ```shell
+git brach main
 git add .
 git commit -m "Create 4084 blog"
 ```
