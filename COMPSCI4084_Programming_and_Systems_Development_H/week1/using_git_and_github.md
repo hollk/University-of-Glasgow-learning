@@ -1,7 +1,11 @@
-# 1. Using Git and gitHb
-## 1.1 Setting up and Creating a New Repository
+<h1 align="center">
+Using Git and gitHub
+</h1>
 
-### 1.1.1 Initialise a new repository locally
+[TOC]
+## 1. Setting up and Creating a New Repository
+
+### 1.1 Initialise a new repository locally
 
 Create a  new folder and initialize this folder with git
 
@@ -17,7 +21,7 @@ After initalization, a hidden .git folder will be created in the current directo
 
 ![image-20250922093654562](./assets/image-20250922093654562.png)
 
-### 1.1.2 Create a new repository on GitHub
+### 1.2 Create a new repository on GitHub
 
 Just click according to the steps
 
@@ -41,13 +45,13 @@ A .gitignore file tells Git which files not to track
 
 A license explains how others can use your code 
 
-### 1.1.3 Connect the local repository to remote GitHub
+### 1.3 Connect the local repository to remote GitHub
 
 ```shell
 git remote add origin https://github.com/hollk/your_repository_name.git
 ```
 
-### 1.1.4 Generating SSH keys for secure communication
+### 1.4 Generating SSH keys for secure communication
 
 * Step 1: Generate an SSH private key and public key on my local
 
@@ -105,7 +109,7 @@ ssh -T  git@github
 
 ![image-20250921213705393](./assets/image-20250921213705393.png)
 
-### 1.1.5 Push the initial commit to github
+### 1.5 Push the initial commit to github
 
 I didn't push the initial commit, I pushed this blog
 
@@ -161,7 +165,7 @@ Force my local main branch to be pushed to the main branch of the remote origin 
 
 ![image-20250922114448695](./assets/image-20250922114448695.png)
 
-## 1.2 Basic Git Commands
+## 2. Basic Git Commands
 
 * git status
 
@@ -193,7 +197,7 @@ git pull = git fetch + git merge
 
 
 
-## 1.3 Working with Branches
+## 3. Working with Branches
 
 At the beginning, I didn’t really understand the purpose of branches.
 
@@ -205,7 +209,7 @@ After finishing the modifications or testing locally, they merge the branch back
 
 In this way, the next version can be iterated without affecting the existing stable version.
 
-### 1.3.1 Branch experiment
+### 3.1 Branch experiment
 
 I am not sure if my understanding is correct, so I conducted a set of experiments:
 
@@ -265,9 +269,9 @@ Check the remote, and it has already been updated with the new content.
 
 ![image-20250922142754141](./assets/image-20250922142754141.png)
 
-## 1.4 Collaborating with GitHub
+## 4. Collaborating with GitHub
 
-### 1.4.1 Foking a repository
+### 4.1 Foking a repository
 
 Select a lucky man as the test subject.
 
@@ -279,7 +283,7 @@ After creation, the fork of this repository will appear in your own repository.
 
 ![image-20250922151051621](./assets/image-20250922151051621.png)
 
-### 1.4.2 cloning a repository
+### 4.2 cloning a repository
 
 You can use HTTPS or SSH, but if you want to make a Pull Request, it is better to clone the repository using SSH to avoid issues with account and password when pushing.
 
@@ -297,7 +301,7 @@ git@github.com:hollk/Maxjiang03.git
 
 ![image-20250922151302237](./assets/image-20250922151302237.png)
 
-### 1.4.3 Creating and reviewing Pull Requests.
+### 4.3 Creating and reviewing Pull Requests.
 
 To be on the safe side, I need to create a pull-request branch and switch to it.
 
